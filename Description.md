@@ -1,6 +1,8 @@
 **Spiking_Neural_Network_with_STDP_in_Verilog**
 
-This project was on designing Spiking Neural Network (SNN) with Spike-Time Dependent Plasticity (STDP) learning algorithm; the design contains 6 input neurons in the input layer, 6 neurons in the only hidden layer and 3 output layer neurons. It is entirely coded in Verilog HDL while Python scripts are used for manipulating and/or representing the data; the SNN has Leaky-Integrate-and-Fire (LIF) neurons.
+This project was on designing Spiking Neural Network (SNN) with Spike-Time Dependent Plasticity (STDP) learning algorithm; the design contains 6 input neurons in the input layer, 6 neurons in the only hidden layer and 3 output layer neurons.
+
+It is entirely coded in Verilog HDL while Python scripts are used for manipulating and/or representing the data; the SNN has Leaky-Integrate-and-Fire (LIF) neurons; and was was performed as part of BTech Major Project during 8th Semester (1st half of 2025) in IIIT Dharwad (more details available in the report attached).
 
 The SNN's task was to classify data of 6-year old kids as UnderWeight/PerfectWeight/OverWeight based on their heights and weights; the input to the SNN is an encoded version of given height and weight and the output from the SNN was one-hot encoded into the three categories mentioned above. My contribution to the project involves everything from designing the working of each neuron and overall network to data manipulation and representation.
 
